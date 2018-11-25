@@ -1,0 +1,15 @@
+$blue-color:#0085ff;
+$blue-start:#0af;
+$font-main:16px;
+$font-small:14px;
+$font-very-small:6px;
+$dot_color:#cbcbcb;
+$dot_active_color:#656565;
+$bg_color:#f8f8f8;
+$font_color_small:#666;
+$font_color_main:#000;
+
+
+@function sizeChange($size){
+	@return $size/375px*100vw;
+}
